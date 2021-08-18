@@ -1,0 +1,7 @@
+C:\Git\UnittestBank\Bank\bin\Debug\Bank.exe.config
+C:\Git\UnittestBank\Bank\bin\Debug\Bank.exe
+C:\Git\UnittestBank\Bank\bin\Debug\Bank.pdb
+C:\Git\UnittestBank\Bank\obj\Debug\Bank.csprojAssemblyReference.cache
+C:\Git\UnittestBank\Bank\obj\Debug\Bank.csproj.CoreCompileInputs.cache
+C:\Git\UnittestBank\Bank\obj\Debug\Bank.exe
+C:\Git\UnittestBank\Bank\obj\Debug\Bank.pdb
