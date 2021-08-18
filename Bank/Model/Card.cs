@@ -12,11 +12,24 @@ namespace Bank.Model
         public string Number { get; set; }
         public int Pin { get; set; }
 
+        public int ExpireMonth { get; set; }
+        public int ExpireYear { get; set; }
+
+
         public Card(int UserPin)
         {
             Pin = UserPin;
             Id = Guid.NewGuid();
             Number = GenerateCardNumber();
+
+            DateTime localDate = DateTime.Now;
+
+            //Set expire date to three years from now
+            localDate.AddYears(3);
+            this.ExpireMonth = localDate.Month;
+            this.ExpireYear = localDate.Year;
+
+
         }
 
         private string GenerateCardNumber()

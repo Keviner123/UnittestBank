@@ -12,7 +12,6 @@ namespace Bank
         static void Main(string[] args)
         {
 
-
         }
     }
 }

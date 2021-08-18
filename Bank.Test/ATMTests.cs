@@ -58,32 +58,6 @@ namespace Bank.Test
         }
 
 
-
-
-        /// <summary>
-        /// In this test we try to login with the wrong password
-        /// and expect to get denied
-        /// </summary>
-        [Fact]
-        public void Access_LoginUnsuccessfullaaaasasdasdy()
-        {
-            ATM SampleATM = new ATM();
-
-            Account UserAccount = new Account();
-            UserAccount.AccountCard = new Card(new int());
-
-            // Arrange (Expected)
-            bool expected = false;
-
-            // Act (Actual)
-            bool actual = SampleATM.Access(UserAccount, 1234);
-
-            // Assert	
-            Assert.Equal(expected, actual);
-        }
-
-
-
         /// <summary>
         /// In this test we try to withdraw money without having set a valid account
         /// and expect to not get access.
